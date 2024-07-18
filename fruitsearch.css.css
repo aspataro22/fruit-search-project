@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  font-family: Arial, sans-serif;
+}
+
+.search-container {
+  max-width: 300px;
+  margin: 50px auto;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color:#fcb69f ;
+  
+}
+
+.search-container .suggestions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid rgb(232, 226, 215);
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+
+.search-container .suggestions ul li {
+  padding: 10px;
+  border-top: 1px solid rgb(232, 226, 215);
+}
+
+ul li:hover {
+  background-color: orange;
+ 
+}
